@@ -88,12 +88,13 @@ const Sidebar = () => {
           height={27}
           className="rounded w-8"
         /> */}
+        <div>Logo</div>
         <h1
           className={`${
             isSidebarCollapsed ? "hidden" : "block"
           } font-extrabold text-2xl`}
         >
-          STEELSTOCK
+          STEEL
         </h1>
 
         <button
@@ -146,7 +147,7 @@ const Sidebar = () => {
 
       {/* FOOTER */}
       <div className={`${isSidebarCollapsed ? "hidden" : "block"} mb-10`}>
-        <p className="text-center text-xs text-gray-500">&copy; 2024 Steel Enterprise</p>
+        <p className="text-center text-xs text-gray-500">&copy; 2024 Steel Enterprises</p>
       </div>
     </div>
   );
